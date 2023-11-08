@@ -13,7 +13,7 @@ export default function Navbar() {
     <div className="flex items-center justify-between h-24 text-white max-w-[1240px] px-4 mx-auto">
       <h1 className="w-full text-3xl font-bold text-[#00df9a]">React</h1>
       <div className="hidden md:flex">
-        <ul className="flex">
+        <ul className="hidden md:flex ">
           <li className="p-4">Home</li>
           <li className="p-4">Company</li>
           <li className="p-4">Resources</li>
